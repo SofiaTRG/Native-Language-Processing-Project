@@ -7,9 +7,7 @@ import chess.engine
 from evaluation import move_normalized_score
 engine = chess.engine.SimpleEngine.popen_uci("stockfish-windows-x86-64-avx2")
 # === CONFIG ===
-API_KEY = "AIzaSyAQrxYX6Zw_CwlhwoOnxiL4FG6zJiJgMrI"
-#API_KEY = "AIzaSyCQJKvzXyVO_P2GyveEZ8_VNmnk6sbhKDs"
-#API_KEY = "AIzaSyDWS_ScRCal-Jdp4ZC-JdwXVLlWKpW6Nzs"
+API_KEY = ""
 #DATA_FILE_V = "datasets/easy_verbal.txt"  # Change to your file
 #DATA_FILE_B="datasets/easy_turn_board.txt"
 
@@ -162,4 +160,5 @@ for j in range (1,4):
     txtss.append(txt)
 for j in range (0,3):
     print("final avg score in date format "+ txtss[j]+" "+str(scoress[i]))
+
 # Final average
