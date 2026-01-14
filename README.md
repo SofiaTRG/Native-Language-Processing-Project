@@ -1,5 +1,5 @@
 # README: NLP Project: Challenges of Using LLM for Chess Move Prediction
-Sofia Torgovezky 321817405      Yaron Kiselman 326651536
+Sofia Torgovezky      Yaron Kiselman
 
 In this project, we demonstrate the challenges large language models (LLMs) face when playing chess, particularly in 
 selecting high quality moves. Classical chess engines rely on search: they construct a game tree, look ahead at possible
